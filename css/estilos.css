@@ -21,16 +21,25 @@ h6{
 }
 
 h1{
-    font-weight: 100;
+    color: white;
+    font-weight: 400;
     font-size: 40px;
     line-height: 125%;
     letter-spacing: 1px;
     text-transform: capitalize;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
+h1 strong{
+    color: #0C7D9D;
+}
 .hero{
-    width: 300px;
+    height: 300px;
+    background-image: url('../Images/hero.jpg');
+    background-color: #1b2127;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .project-details{
@@ -39,4 +48,15 @@ h1{
 
 .project-imageContainer{
     width: 500px;
+}
+
+/* Dando color a los selectores */
+.header{
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
