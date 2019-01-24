@@ -40,8 +40,15 @@ h1 strong{
     background-size: 300px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+
 }
 
+.project{
+    border: 1px solid gray;
+    /* border-color: blueviolet;
+    border-width: 10px;
+    border-style: dashed; */
+}
 .project-details{
     width: 500px;
 }
