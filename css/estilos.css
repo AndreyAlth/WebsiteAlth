@@ -28,6 +28,7 @@ h1{
     letter-spacing: 1px;
     text-transform: capitalize;
     text-decoration: none;
+    margin: 100px 615px 70px 30px;
 }
 
 h1 strong{
@@ -48,6 +49,7 @@ h1 strong{
     /* border-color: blueviolet;
     border-width: 10px;
     border-style: dashed; */
+    margin-bottom: 15px;
 }
 .project-details{
     width: 500px;
