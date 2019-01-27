@@ -55,6 +55,7 @@ h1 strong{
 .project{
     border: 1px solid gray;
     border-radius: 10px;
+    display: flex;
     /* border-color: blueviolet;
     border-width: 10px;
     border-style: dashed; */
@@ -80,4 +81,17 @@ h1 strong{
 .header a {
     color: white;
     text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 1px;
+    flex-shrink: 0;
 }
