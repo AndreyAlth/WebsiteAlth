@@ -76,6 +76,41 @@ h1 strong{
 .header{
     background-color: #1b2127;
     color: white;
+    display: flex;
+    height: 90px;
+    /* align-content: center; */
+    justify-content: space-between;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    height: inherit;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
 }
 
 .header a {
@@ -89,9 +124,9 @@ h1 strong{
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     border: 1px solid red;
-    margin: 1px;
+    margin: 10px;
     flex-shrink: 0;
 }
