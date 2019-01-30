@@ -110,6 +110,57 @@ h2{
     width: 500px;
 }
 
+.event-list{
+    display: flex;
+}
+
+.event-list-title{
+    margin-left: 20px;
+    /* padding: 20px; */
+}
+
+.event{
+    /* border:1px solid red; */
+    background-color: #f4fbff;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event img{
+    width: 480px;
+    /* height: 200px; */
+    object-fit: cover;
+}
+
+/* .event iframe{
+    width: 480px;
+} */
+
+.event-detail{
+    margin:20px 40px;
+    margin-top: -45px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    color: #056fff;
+    border: 1px solid #056fff;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+
 /* Dando color a los selectores */
 .header{
     background-color:#1B2127;
