@@ -9,145 +9,159 @@
     </head>
     <body >
         <header class="header">
-            <figure class="logo">
-                <img src="Images/header_logo.jpg" alt="Logo">
-            </figure>
-            <nav class="menu">
-                    <ol>
-                        <li>
-                            <a class="link" href="#portafolio">Portafolio</a>
-                        </li>
-                        <li>
-                            <a class="link" href="#experiencia">Experiencia</a>
-                        </li>
-                        <li>
-                            <a class="link" href="#contacto">Contacto</a>
-                        </li>
-                    </ol>
-            </nav>
+            <div class="container">
+                <figure class="logo">
+                    <img src="Images/header_logo.jpg" alt="Logo">
+                </figure>
+                <nav class="menu">
+                        <ol>
+                            <li>
+                                <a class="link" href="#portafolio">Portafolio</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#experiencia">Experiencia</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#contacto">Contacto</a>
+                            </li>
+                        </ol>
+                </nav>
+            </div>
         </header>
         <section class="hero">
-            <h1>Hola! Soy Andrey Alth <br/> desarrollador de <strong>JavaScript</strong> </h1>
-            <!-- <img src="images/hero.jpg" width="300" height="" alt="Imagen del sitio"/> -->
+            <div class="container">
+                <h1>Hola! Soy Andrey Alth <br/> desarrollador de <strong>JavaScript</strong> </h1>
+                <img class="hero-image" src="images/hero.jpg" width="300" height="" alt="Imagen del sitio"/>
+            </div>
         </section>
         <section id="portafolio" class="portfolio">
-            <h2>Portafolio</h2>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title">Salesman Problem Solver</h3>
-                    <h6 class="project-course">Python / SA</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 29/Nov/2018</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong> https://github.com/AndreyAlth?tab=repositories</small></p>
-                    <p class="project-description">
-                        The Salesman Problem Solver es un programa que toma las coordenadas
-                        de un grupo de puntos y dibuja el camino más optimo
-                    </p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" width="500" src="Images/SA_problem.png" alt="projecto SA problem">
-                </figure>
-            </article>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title">Salesman Problem Solver</h3>
-                    <h6 class="project-course">Python / SA</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 29/Nov/2018</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong> https://github.com/AndreyAlth?tab=repositories</small></p>
-                    <p class="project-description">
-                        The Salesman Problem Solver es un programa que toma las coordenadas
-                        de un grupo de puntos y dibuja el camino más optimo
-                    </p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" width="500" src="Images/SA_problem.png" alt="projecto SA problem">
-                </figure>
-            </article>
+            <div class="container">
+                <h2>Portafolio</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Salesman Problem Solver</h3>
+                        <h6 class="project-course">Python / SA</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 29/Nov/2018</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en: </strong> https://github.com/AndreyAlth?tab=repositories</small></p>
+                        <p class="project-description">
+                            The Salesman Problem Solver es un programa que toma las coordenadas
+                            de un grupo de puntos y dibuja el camino más optimo
+                        </p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" width="500" src="Images/turtle.gif" alt="projecto SA problem">
+                    </figure>
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Salesman Problem Solver</h3>
+                        <h6 class="project-course">Python / SA</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 29/Nov/2018</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en: </strong> https://github.com/AndreyAlth?tab=repositories</small></p>
+                        <p class="project-description">
+                            The Salesman Problem Solver es un programa que toma las coordenadas
+                            de un grupo de puntos y dibuja el camino más optimo
+                        </p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" width="500" src="Images/SA_problem.png" alt="projecto SA problem">
+                    </figure>
+                </article>
+            </div>
         </section>
-        <h2 class="event-list-title">Más acerca de mi experiencia</h2>
+        <div class="container">
+            <h2 class="event-list-title">Más acerca de mi experiencia</h2>
+        </div>
         <section id="experiencia" class="event-list">
-            <article class="event">
-                <figure class="event-imageContainer">
-                    <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">Clubes de Ciencias México</h3>
-                    <p class="event-description">
-                        Clubes de Ciencia México es realizado en varios estados de México
-                        donde los amantes de la ciencia se reunen para en pequeños grupos
-                        para tomar clase sobre un tema de investigación impartido por instructores
-                    </p>
-                    <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe> -->
-                </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageContainer">
-                    <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">Clubes de Ciencias México</h3>
-                    <p class="event-description">
-                        Clubes de Ciencia México es realizado en varios estados de México
-                        donde los amantes de la ciencia se reunen para en pequeños grupos
-                        para tomar clase sobre un tema de investigación impartido por instructores
-                    </p>
-                    <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe> -->
-                </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageContainer">
-                    <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">Clubes de Ciencias México</h3>
-                    <p class="event-description">
-                        Clubes de Ciencia México es realizado en varios estados de México
-                        donde los amantes de la ciencia se reunen para en pequeños grupos
-                        para tomar clase sobre un tema de investigación impartido por instructores
-                    </p>
-                    <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe> -->
-                </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageContainer">
-                    <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">Clubes de Ciencias México</h3>
-                    <p class="event-description">
-                        Clubes de Ciencia México es realizado en varios estados de México
-                        donde los amantes de la ciencia se reunen para en pequeños grupos
-                        para tomar clase sobre un tema de investigación impartido por instructores
-                    </p>
-                    <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe> -->
-                </div>
-            </article>
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Clubes de Ciencias México</h3>
+                        <p class="event-description">
+                            Clubes de Ciencia México es realizado en varios estados de México
+                            donde los amantes de la ciencia se reunen para en pequeños grupos
+                            para tomar clase sobre un tema de investigación impartido por instructores
+                        </p>
+                        <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe> -->
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Clubes de Ciencias México</h3>
+                        <p class="event-description">
+                            Clubes de Ciencia México es realizado en varios estados de México
+                            donde los amantes de la ciencia se reunen para en pequeños grupos
+                            para tomar clase sobre un tema de investigación impartido por instructores
+                        </p>
+                        <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe> -->
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Clubes de Ciencias México</h3>
+                        <p class="event-description">
+                            Clubes de Ciencia México es realizado en varios estados de México
+                            donde los amantes de la ciencia se reunen para en pequeños grupos
+                            para tomar clase sobre un tema de investigación impartido por instructores
+                        </p>
+                        <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe> -->
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/CdCM.PNG" width="500" alt="foto de CdCM"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Clubes de Ciencias México</h3>
+                        <p class="event-description">
+                            Clubes de Ciencia México es realizado en varios estados de México
+                            donde los amantes de la ciencia se reunen para en pequeños grupos
+                            para tomar clase sobre un tema de investigación impartido por instructores
+                        </p>
+                        <a class="event-url" href="https://www.clubesdeciencia.mx/" target="_blank">Ir a Clubes de ciencia México</a>
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JM0vAM2Olg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe> -->
+                    </div>
+                </article>
+            </div>
         </section>
         <section id="contacto" class="contact">
-            <form action="/ruta/" class="form-email">
-                <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="Dejame tu email">
-                <button>Enviar</button>
-            </form>
-            <div class="social">
-                <a href="https://www.facebook.com/andreyalth" class="social-link facebook"></a>
-                <a href="https://www.instagram.com/andreyalth" class="social-link instagram"></a>
-                <a href="https://github.com/AndreyAlth" class="social-link github"></a>
+            <div class="container">
+                <form action="/ruta/" class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Dejame tu email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://www.facebook.com/andreyalth" class="social-link facebook"></a>
+                    <a href="https://www.instagram.com/andreyalth" class="social-link instagram"></a>
+                    <a href="https://github.com/AndreyAlth" class="social-link github"></a>
+                </div>
             </div>
         </section>
         <footer class="footer">
-            <div>
-                <p>Pagina personal <img src="./Images/logo.png" alt="Andrey" width="50px"></p>
-            </div>
-            <div>
-                <p>Design with <\3 by <a href= "https://github.com/AndreyAlth" target= "_blank">Andrey Alth</a></p>
+            <div class="container">
+                <div>
+                    <p>Pagina personal <img src="./Images/logo.png" alt="Andrey" width="50px"></p>
+                </div>
+                <div>
+                    <p>Design with <\3 by <a href= "https://github.com/AndreyAlth" target= "_blank">Andrey Alth</a></p>
+                </div>
             </div>
         </footer>
         <script src="Animations/scroll.js"></script>
