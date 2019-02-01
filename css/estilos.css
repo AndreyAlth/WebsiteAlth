@@ -228,6 +228,64 @@ figure{
     flex-shrink: 0;
 }
 
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-email input{
+    border-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px 10px 5px 25px;
+    background-image: url(../Images/envelope.svg);
+    background-size: 15px 15px;
+    background-position-x: 5px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* .social{
+} */
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url(../Images/facebook.svg);
+}
+
+.social-link.instagram{
+    background-image: url(../Images/instagram.svg);
+}
+
+.social-link.github{
+    background-image: url(../Images/github.svg);
+}
+
 .footer{
     color: white;
     background: #1b2127;
