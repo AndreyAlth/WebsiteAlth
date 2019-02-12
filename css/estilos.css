@@ -90,9 +90,16 @@ object-fit: cover;
 }
 
 .project-details{
-    width: 500px;
+    width: 50%;
 }
 
+.project-imageContainer{
+    width: 50%;
+}
+
+.project-imageContainer img{
+    max-width: 100%;
+}
 .project-title{
     font-size: 30px;
     margin-top: 0;
@@ -113,9 +120,6 @@ object-fit: cover;
     font-family: 'Fjalla One',sans-serif;
 }
 
-.project-imageContainer{
-    width: 500px;
-}
 
 .event-list{
     display: flex;
@@ -335,6 +339,7 @@ figure{
 
 @media screen and (max-width: 767px)
 {
+    /*Header*/
     .header{
         display: block;
         height: auto;
@@ -359,10 +364,45 @@ figure{
     {
         text-align: center;
     }
+
+    /*Project*/
+    .project{
+        display: block;
+    }
+    .project-details{
+        width: auto;
+        /* font-size: 16px; */
+    }
+    .project-course, .project-date, .project-url{
+        margin: 0.4em 0;
+    }
+    .project-title{
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+    }
+    .project-course{
+        font-size: 0.7em;
+    }
+    .project-date{
+        font-size: 1em;
+    }
+    .project-url{
+        font-size: 1em;
+    }
+    .project-description{
+        font-size: 0.8em;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px)
 {
+    .project-details{
+        font-size: 12px;
+    }
 
 }
 
