@@ -321,6 +321,7 @@ figure{
 
 .container{
     max-width: 1000px;
+    padding: 0 1em;
     /* width: 100%; */
     flex: 1;
     margin: 0 auto;
@@ -417,6 +418,28 @@ figure{
     .event-detail{
         margin: -2em 0.5em 0.5em 0.5em;
         padding: 1em;
+    }
+
+    /*Contact*/
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+
+    }
+    .form-email h3{
+        margin-top: 0;
+    }
+
+    /*Footer*/
+    .footer{
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 
 }
