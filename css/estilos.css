@@ -61,6 +61,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image{
@@ -85,6 +86,7 @@ object-fit: cover;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-details{
@@ -176,6 +178,7 @@ object-fit: cover;
     height: 90px;
     /* align-content: center; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu{
@@ -242,6 +245,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .form-email input{
@@ -299,6 +303,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -311,7 +316,7 @@ figure{
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -328,9 +333,9 @@ figure{
 
 @media screen and (max-width: 768px)
 {
-    body{
+    /* body{
         border: 10px solid green;
-    }
+    } */
 }
 
 @media screen and (max-width: 480px)
