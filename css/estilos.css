@@ -335,7 +335,28 @@ figure{
 /* Anadiendo medias queries */
 @media screen and (max-width: 1024px)
 {
-    
+    /*Hero*/
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        filter: opacity(80%) blur(1px);
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+        /* text-shadow: 1px 2px 2px #000; */
+    }
 }
 
 @media screen and (max-width: 767px)
@@ -410,6 +431,11 @@ figure{
 
 @media screen and (max-width: 480px)
 {
+    /*Hero*/
+    h1{
+        font-size: 1.5em;
+    }
+
     .project-details{
         font-size: 12px;
     }
@@ -446,5 +472,8 @@ figure{
 
 @media screen and (max-width: 320px)
 {
-
+    /*Hero*/
+    h1{
+        font-size: 1em;
+    }
 }
