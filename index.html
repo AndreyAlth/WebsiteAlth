@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body >
-        <i class="icon-menu burger-menu"></i>
+        <i class="icon-menu burger-menu" id="burger-menu"></i>
         <header class="header">
             <div class="container">
                 <figure class="logo">
@@ -169,5 +169,26 @@
             </div>
         </footer>
         <script src="Animations/scroll.js"></script>
+        <script>
+            console.log("Hola mundo, es mi n linea en js");
+
+            const menu =document.querySelector(".menu");
+            const burgerButton = document.querySelector("#burger-menu");
+
+            console.log(menu);
+            console.log(burgerButton);
+
+
+            burgerButton.addEventListener('click',hideShow);
+
+            function hideShow(){
+                if(menu.classList.contains("is-active")){
+                    menu.classList.remove("is-active");
+                }
+                else{
+                    menu.classList.add("is-active");
+                }
+            }
+        </script>
     </body>
 </html>
