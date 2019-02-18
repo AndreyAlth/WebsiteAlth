@@ -170,16 +170,26 @@
         </footer>
         <script src="Animations/scroll.js"></script>
         <script>
-            console.log("Hola mundo, es mi n linea en js");
-
             const menu =document.querySelector(".menu");
             const burgerButton = document.querySelector("#burger-menu");
+            const ipad = window.matchMedia("screen and (max-width: 767px)");
+            
+            // console.log("Hola mundo, es mi n linea en js");
+            // console.log(window.matchMedia("screen and (max-width:767px)"));
+            // console.log(menu);
+            // console.log(burgerButton);
 
-            console.log(menu);
-            console.log(burgerButton);
-
-
-            burgerButton.addEventListener('click',hideShow);
+            ipad.addListener(validation);
+            
+            function validation(event){
+                if(event.matches){
+                    burgerButton.addEventListener('click',hideShow);
+                }
+                else{
+                    burgerButton.removeEventListener('click',hideShow);
+                }
+            }
+            validation(ipad);
 
             function hideShow(){
                 if(menu.classList.contains("is-active")){

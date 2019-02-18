@@ -78,7 +78,7 @@ h2{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .hero{
@@ -100,7 +100,7 @@ object-fit: cover;
 
 .portfolio{
     background: #fafafa;
-    padding: 20px;
+    padding: 5px;
 }
 
 .project{
@@ -375,14 +375,17 @@ figure{
     text-align: center;
     position: fixed;
     z-index: 4;
-    /* left: 5px; */
-    right: 10px;
+    left: 5px;
+    /* right: 10px; */
     top: 1.5em;
 }
 
 /* Anadiendo medias queries */
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1023px)
 {
+    .event-list-title{
+        margin-left: 0;
+    }
     /*Hero*/
     .hero{
         height: auto;
@@ -508,7 +511,7 @@ figure{
         font-size: 1em;
     }
     .project-description{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .project-imageContainer{
         width: auto;
@@ -536,9 +539,13 @@ figure{
     h1{
         font-size: 1.5em;
     }
+    h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
     .project-details{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /*Experiencia*/
@@ -567,6 +574,11 @@ figure{
         display: block;
         text-align: center;
         border: 1px solid transparent;
+    }
+    .social-link{
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
     }
 
 }
